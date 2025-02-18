@@ -109,10 +109,21 @@ h2{
   border-radius: 10px;
 }
 
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
 .btn {
-  background-color: #7500ec;
+  background-color: var(--secondary-color);
   padding: 10px;
   color: white;
+}
+
+#play-button {
+  background-color: var(--quaternary-color);
+  color: black;
 }
 
 main {
@@ -123,7 +134,7 @@ main {
 /* About */
 .about-container {
   height: 80vh;
-  width: 70vw;
+  width: 60vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
@@ -299,6 +310,7 @@ main {
 .footer-heading-contactUs li {
   margin: 0 7rem 1rem 0;
 }
+
 
 .footer-email-form h2 {
   margin-bottom: 2rem;
