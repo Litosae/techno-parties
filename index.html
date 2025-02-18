@@ -2,100 +2,134 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Techno Party Events</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Techno Party Events</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <!-- About -->
-    <div class="about-container">
-        <div class="about-text">
-            <h2>About Our Events</h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur, vitae tenetur iure atque labore repellat tempora, ab
-                aliquid odit inventore dolor eos? Quo quae accusamus cum ipsa illo
-                tempore non, enim, at facere molestias reiciendis debitis aliquid
-                iste maiores. Qui omnis tempore dolor. Quaerat corporis eaque at
-                quis officia porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque perferendis aspernatur culpa,
-                eveniet sequi veritatis facere explicabo soluta accusamus maxime at consequuntur dicta architecto, rerum qui
-                iure.
-            </p>
+  <header id="showcase">
+  <div class="bg-image"></div>
+  <div class="bg-text">
+      <h1>Welcome to my Techno PARTY</h1>
+      <p>Upcoming events for techno & house music website, <br>for more info and tickets read more</p>
+      <!-- <a href="" class="btn">Read More</a> -->
+      <button href="" class="btn">Read More</button>
+  </div>
+</header>
+
+  <!-- Audio Player -->
+  <!-- <div class="audio-player">
+    <audio id="background-music" src="audio/techno-music.mp3" loop></audio>
+    <button id="play-button">Play Music</button>
+  </div> -->
+
+  <!-- About -->
+   <main>
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Our Events</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Consectetur, vitae tenetur iure atque labore repellat tempora, ab
+        aliquid odit inventore dolor eos? Quo quae accusamus cum ipsa illo
+        tempore non, enim, at facere molestias reiciendis debitis aliquid
+        iste maiores. Qui omnis tempore dolor. Quaerat corporis eaque at
+        quis officia porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cumque perferendis
+        aspernatur culpa,
+        eveniet sequi veritatis facere explicabo soluta accusamus maxime at consequuntur dicta architecto, rerum qui
+        iure.
+      </p>
+    </div>
+    <div class="about-images">
+      <div class="about-image-1"></div>
+      <div class="about-image-2"></div>
+      <div class="about-image-3"></div>
+    </div>
+  </div>
+
+  <!-- Events -->
+  <div class="container-events">
+    <div class="row-events">
+      <div class="primavera-event"><img src="images/primavera.2025.png">
+        <h3>Electronic music festival</h3>
+        <p>Listen for 3 days the music of the future on the beach</p>
+
+      </div>
+      <div class="burning-event"><img src="images/burning.png">
+        <h3>Party in the desert</h3>
+        <p>In Girona take place the best party in the desert. Two days of non stop hardcore techno music! </p>
+      </div>
+      <div class="brunch-event"><img src="images/brunch.png">
+        <h3>Street party </h3>
+        <p>What about music in the street? Join the experience of sound inside of barrio gotico!</p>
+
+      </div>
+    </div>
+  </div>
+</main>
+
+  <!-- Footer -->
+  <div class="footer-container">
+    <div class="footer">
+      <div class="footer-heading-logo">
+        <h2><a href="index.html"><img src="images/viajar.png"></a></h2>
+      </div>
+      
+      <!-- About -->
+      <ul>
+        <div class="footer-heading aboutUs">
+          <li>
+            <h2>About Us</h2>
+          </li>
+          <li>Information</li>
+          <li>Locations</li>
+          <li>Tickets</li>
         </div>
-        <div class="about-images">
-            <div class="about-image-1"></div>
-            <div class="about-image-2"></div>
-            <div class="about-image-3"></div>
+      </ul>
+
+      <!-- Contact -->
+      <ul>
+        <div class="footer-heading contactUs">
+          <li>
+            <h2>Quick Links</h2>
+          </li>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Events</li>
+          <li>Contact</li>
+        </div>
+      </ul>
+      <ul>
+
+        <!-- Social Media -->
+        <div class="footer-heading socialMedia">
+          <li>
+            <h2>Social Media</h2>
+          </li>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Youtube</li>
+          <li>Twitter</li>
         </div>
     </div>
+  </div>
 
-    <!-- Events -->
-    <div class="container-events">
-        <div class="row-events">
-           <div class="primavera-event"><img src="images/primavera.2025.png">
-               <h3>Electronic music festival</h3>
-               <p>Listen for 3 days the music of the future on the beach</p>
-             
-           </div>
-           <div class="burning-event"><img src="images/burning.png">
-               <h3>Party in the desert</h3>
-               <p>In Girona take place the best party in the desert. Two days of non stop hardcore techno music! </p>
-           </div>
-           <div class="brunch-event"><img src="images/brunch.png">
-               <h3>Street party </h3>
-               <p>What about music in the street? Join the experience of sound inside of barrio gotico!</p>
-   
-           </div>
-         </div>
-        </div>
+  <script>
+    const audio = document.getElementById('background-music');
+    const playButton = document.getElementById('play-button');
 
-        <!-- Footer -->
-        <div class="footer-container">
-           <div class="footer">
-           
-             <ul>
-               <div class="footer-heading-logo">
-                 
-                 <li>
-                   <h2><a href="index.html"><img src="images/viajar.png"></a></h2>
-                 </li>
-             
-               </div>
-               
-           
-             </ul>
-           
-             <ul>
-              <div class="footer-heading aboutUs">
-               <li><h2>About Us</h2></li>
-               <li>Blog</li>
-               <li>Demo</li>
-               <li>Customers</li>
-               <li>Investors</li>
-               <li>Terms of Service</li>
-              </div>
-             </ul>
-             <ul>
-            <div class="footer-heading contactUs">
-             <li><h2>Contact Us</h2></li>
-             <li>Jobs</li>
-             <li>Support</li>
-             <li>Contact Us</li>
-             <li>Sponsorships</li>
-            </div>
-             </ul>
-             <ul>
-            <div class="footer-heading socialMedia">
-             <li><h2>Social Media</h2></li>
-             <li>Instagram</li>
-             <li>Facebook</li>
-             <li>Youtube</li>
-             <li>Twitter</li>
-           </div>
-           </div>
-         </div>
+    playButton.addEventListener('click', () => {
+      if (audio.paused) {
+        audio.play();
+        playButton.textContent = 'Pause Music';
+      } else {
+        audio.pause();
+        playButton.textContent = 'Play Music';
+      }
+    });
+  </script>
 </body>
 
 </html>
