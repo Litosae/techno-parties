@@ -163,7 +163,7 @@ p {
   background-color: var(--tertiary-color);
 }
 
-#play-button:hover {
+#play-button:hover, #play-button.playing {
   background-color: var(--hover-color);
   color: black;
 }
