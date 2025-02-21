@@ -358,6 +358,7 @@ main {
 .footer {
   width: 100%;
   display: flex;
+  gap: 4rem;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
